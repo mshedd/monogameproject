@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="monogameproject.Player" Collapsed="true">
+    <Position X="1.5" Y="0.75" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAQIAAQACAAAAAAAAAAAAQAACgAAAAAAAhAABIBAAA=</HashCode>
+      <FileName>Basic\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="monogameproject.Card" Collapsed="true">
+    <Position X="8" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Basic\Card.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="monogameproject.Placement" Collapsed="true">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAA=</HashCode>
+      <FileName>Placements\Placement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="monogameproject.Ability" Collapsed="true">
+    <Position X="10" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abilities\Ability.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="monogameproject.General" Collapsed="true">
+    <Position X="6.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Placements\General.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="monogameproject.City" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Placements\City.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="monogameproject.BattlePlan" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="monogameproject.Ability" ManuallyRouted="true">
+      <Path>
+        <Point X="10.75" Y="2.691" />
+        <Point X="10.75" Y="3.083" />
+        <Point X="10.248" Y="3.083" />
+        <Point X="10.248" Y="3.5" />
+        <Point X="10" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abilities\BattlePlan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="monogameproject.Invention" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="monogameproject.Ability" ManuallyRouted="true">
+      <Path>
+        <Point X="10.75" Y="2.691" />
+        <Point X="10.75" Y="3.083" />
+        <Point X="11.42" Y="3.083" />
+        <Point X="11.42" Y="3.5" />
+        <Point X="11.75" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Abilities\Invention.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="monogameproject.Match" Collapsed="true">
+    <Position X="3.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAABAgAAAAIAAAACAIAAA=</HashCode>
+      <FileName>Basic\Match.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="monogameproject.Delegate1" Collapsed="true">
+    <Position X="13" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Delegate1.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
